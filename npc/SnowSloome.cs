@@ -5,10 +5,10 @@ using Terraria.ModLoader;
 namespace bloopsmod.npc
 {
 	// Party Zombie is a pretty basic clone of a vanilla NPC. To learn how to further adapt vanilla NPC behaviors, see https://github.com/tModLoader/tModLoader/wiki/Advanced-Vanilla-Code-Adaption#example-npc-npc-clone-with-modified-projectile-hoplite
-	public class SandSloome : ModNPC
+	public class SnowSloome : ModNPC
 	{
 		public override void SetStaticDefaults() {
-			DisplayName.SetDefault("Sand Sloome");
+			DisplayName.SetDefault("Snow Sloome");
 			Main.npcFrameCount[npc.type] = Main.npcFrameCount[NPCID.Zombie];
 		}
 
