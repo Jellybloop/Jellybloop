@@ -29,8 +29,7 @@ namespace bloopsmod.npc
 		}
 
 		public override float SpawnChance(NPCSpawnInfo spawnInfo){
-		if(spawnInfo.player.ZoneCrimson);
-	         return .5f;
+		return SpawnCondition.Crimson.Chance * 0.5f;
 		}
 }
 }
