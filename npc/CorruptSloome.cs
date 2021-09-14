@@ -29,8 +29,7 @@ namespace bloopsmod.npc
 		}
 
 		public override float SpawnChance(NPCSpawnInfo spawnInfo){
-		if(spawnInfo.player.ZoneCorrupt);
-	         return .5f;
+		return SpawnCondition.Corruption.Chance * 0.5f;
 		}
 }
 }
