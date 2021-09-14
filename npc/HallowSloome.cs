@@ -27,8 +27,7 @@ namespace bloopsmod.npc
 		}
 
 		public override float SpawnChance(NPCSpawnInfo spawnInfo){
-		if(spawnInfo.player.ZoneHoly);
-	         return .5f;
+		return SpawnCondition.OverworldHallow.Chance
 		}
 }
 }
