@@ -30,8 +30,7 @@ namespace bloopsmod.npc
 		}
 
 		public override float SpawnChance(NPCSpawnInfo spawnInfo){
-		if(spawnInfo.player.ZoneOverworldHeight);
-	         return .5f;
+		SpawnCondition.OverworldDayGrassCritter.Chance * 50.5f;
 }
 }
 }
