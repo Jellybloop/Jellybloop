@@ -30,7 +30,7 @@ namespace bloopsmod.npc
 		}
 
 		public override float SpawnChance(NPCSpawnInfo spawnInfo){
-		return SpawnCondition.OverworldDayDesert.Chance * 50.5f;
+		return SpawnCondition.OverworldDayDesert.Chance * 5.5f;
 
 		}
 }
