@@ -30,7 +30,7 @@ namespace bloopsmod.npc
 		}
 
 		public override float SpawnChance(NPCSpawnInfo spawnInfo){
-		return SpawnCondition.OverworldDaySnowCritter.Chance * 50.5f;
+		return SpawnCondition.OverworldDaySnowCritter.Chance * 5.5f;
 
 		}
 }
