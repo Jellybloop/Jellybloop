@@ -29,7 +29,7 @@ namespace bloopsmod.npc
 		}
 
 		public override float SpawnChance(NPCSpawnInfo spawnInfo){
-		return SpawnCondition.Corruption.Chance * 0.5f;
+		return SpawnCondition.Corruption.Chance * 0.1f;
 		}
 }
 }
